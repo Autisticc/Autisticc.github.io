@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-12-19T15:17:57.710Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>testArticle</title>
+    <link href="http://example.com/2021/12/19/test-article/"/>
+    <id>http://example.com/2021/12/19/test-article/</id>
+    <published>2021-12-19T15:07:15.653Z</published>
+    <updated>2021-12-19T15:17:57.710Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="IDEA教程之Gitee插件的使用"><a href="#IDEA教程之Gitee插件的使用" class="headerlink" title="IDEA教程之Gitee插件的使用"></a>IDEA教程之Gitee插件的使用</h1><p><code>idea版本</code></p><p><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719193514602.png" alt="image-20210719193514602"></p><p><strong>文章参考：</strong></p><ul><li><a href="https://blog.csdn.net/qsx741olm/article/details/102052375">https://blog.csdn.net/qsx741olm/article/details/102052375</a></li></ul><blockquote><p>安装Gitee插件</p></blockquote><ul><li>1【File】-【Settings】-【Plugins】，查看gitee插件并安装</li><li>2 重启</li><li>3 添加gitee账户<ul><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719193639629.png" alt="image-20210719193639629"></li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719193725770.png" alt="image-20210719193725770">只能支持邮箱登录</li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719193752400.png" alt="image-20210719193752400"></li></ul></li></ul><h2 id="项目push到gitee"><a href="#项目push到gitee" class="headerlink" title="项目push到gitee"></a>项目push到gitee</h2><ul><li>选中要同步的项目，点击菜单【VCS】-【Import into Version Control】-【Share Project on Gitee】<ul><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719194828464.png" alt="image-20210719194828464"></li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719194913792.png" alt="image-20210719194913792"></li><li>使用默认仓库名称，将不必要的文件去除对勾，点击【Add】</li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719194948923.png" alt="image-20210719194948923"></li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195004105.png" alt="image-20210719195004105"></li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195034087.png" alt="image-20210719195034087"></li></ul></li></ul><h2 id="项目clone至IDEA"><a href="#项目clone至IDEA" class="headerlink" title="项目clone至IDEA"></a>项目clone至IDEA</h2><ul><li>【VCS】-【Checkout from Version Control】-【Git】<ul><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195130635.png" alt="image-20210719195130635"></li><li>克隆Gitee中项目，输入Gitee项目的URL，点击【Clone】，开始克隆</li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195154760.png" alt="image-20210719195154760"></li><li>输入Gitee项目URL，点击【Yes】</li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195215984.png" alt="image-20210719195215984"></li><li>确认点击【This Window】</li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195239528.png" alt="image-20210719195239528"></li><li>选择新项目容器，克隆成功，可看到项目代码</li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195308169.png" alt="image-20210719195308169"></li></ul></li></ul><h2 id="Gitee团队协作（？）"><a href="#Gitee团队协作（？）" class="headerlink" title="Gitee团队协作（？）"></a>Gitee团队协作（？）</h2><h3 id="拉取代码（有空实操）"><a href="#拉取代码（有空实操）" class="headerlink" title="拉取代码（有空实操）"></a>拉取代码（有空实操）</h3><ul><li>【VCS】-【Update Project】<ul><li><img src="C:\Users\john\AppData\Roaming\Typora\typora-user-images\image-20210719195522294.png" alt="image-20210719195522294" style="zoom:150%;" /></li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195537530.png" alt="image-20210719195537530"></li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195545910.png" alt="image-20210719195545910"></li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195642431.png" alt="image-20210719195642431"></li></ul></li></ul><h3 id="提交代码"><a href="#提交代码" class="headerlink" title="提交代码"></a>提交代码</h3><ul><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195801386.png" alt="image-20210719195801386"></li><li><strong>提交菜单</strong>，可选择哪些代码提交，默认全选，输入提交信息，点击【Commit and Push】。或者先点击【Commit】，再从菜单中点击【Push】</li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195836172.png" alt="image-20210719195836172"></li><li><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719195957718.png" alt="image-20210719195957718"></li></ul><h3 id="代码冲突"><a href="#代码冲突" class="headerlink" title="代码冲突"></a>代码冲突</h3><ul><li>合并分支的时候，两个或两个以上的分支在同一名字的文件上做出的修改不同，git不敢轻易的合并（或者他根本不知道怎么做），需要用户来手动解决分支。</li></ul><p><img src="C:/Users/john/AppData/Roaming/Typora/typora-user-images/image-20210719200058473.png" alt="image-20210719200058473"></p><img src="C:\Users\john\AppData\Roaming\Typora\typora-user-images\image-20210719200159381.png" alt="image-20210719200159381" style="zoom:150%;" />]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;IDEA教程之Gitee插件的使用&quot;&gt;&lt;a href=&quot;#IDEA教程之Gitee插件的使用&quot; class=&quot;headerlink&quot; title=&quot;IDEA教程之Gitee插件的使用&quot;&gt;&lt;/a&gt;IDEA教程之Gitee插件的使用&lt;/h1&gt;&lt;p&gt;&lt;code&gt;idea</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/12/19/hello-world/"/>
+    <id>http://example.com/2021/12/19/hello-world/</id>
+    <published>2021-12-19T14:08:54.812Z</published>
+    <updated>1985-10-26T08:15:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
